@@ -434,7 +434,9 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left:auto; solid #1f5297;
+  position: relative;
+  border-right:auto; solid #1f5297;
   position: relative;
 }
 
